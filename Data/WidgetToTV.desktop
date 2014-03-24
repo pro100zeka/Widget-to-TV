@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=SmTVWidgetInstaller
+Type=Application
+Icon=/home/asus/dev/c++/SmTVWidgetInstaller/icon/ico.png
+Exec=/home/asus/dev/c++/SmTVWidgetInstaller/build-WidgetInstaller-Desktop_Qt_5_2_1_GCC_32bit-Debug/WidgetInstaller
+Name[ru]=WidgetToTV
