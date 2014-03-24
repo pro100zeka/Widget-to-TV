@@ -9,7 +9,6 @@ processor::processor()
 
 void processor::ProcessAction(QTcpSocket* pSock)
 {
-
     QByteArray qBa = pSock->readAll();
     qDebug() << qBa;
     std::stringstream ss(qBa.data());
