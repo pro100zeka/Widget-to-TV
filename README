@@ -1,1 +1,8 @@
-readme
+function error_exit
+{
+    zenity --error
+    exit 1
+}
+
+gksudo 'iptables -t nat -A PREROUTING -p tcp --dport 80 -j REDIRECT --to-port 9999' || error_exit
+./WigdetToTV
